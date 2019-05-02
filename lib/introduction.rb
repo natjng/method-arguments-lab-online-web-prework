@@ -3,5 +3,5 @@ def introduction(name)
 end
 
 def introduction_with_language(name, language)
-  
-authenticate_or_request_with_http_digest
+  puts "Hi, name name is #{name} and I am learning to program in #{language}."
+end
